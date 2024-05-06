@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    background: #FFF;
+    padding: 5px 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+nav{
+    display: grid;
+    align-items: center;
+}
+nav ul li{
+   border: 1px solid black;
+   padding: 10px 35px;
+   margin: 35px;
+}
+nav ul li a{
+    color: black;
+    font-size: 28px;
+}
+ 
+nav ul svg.pivo{
+    width: 100px;
+    height:100px 
+}
+nav ul article {
+    display: grid;
+    align-items: center;
+    align-self: center;
+}
+
+nav ul article  {
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(2, 25px);
+}
+
+nav ul article article div :nth-child(2) {
+    grid-row: 1/2 ;
+}
+
+nav ul article div {
+    display: grid;
+    align-items: center;
+}
+
+nav ul article div span {
+    grid-row: 1/2;
+}
+
+nav ul div svg {
+    width: 100%;
+    height: 20px;
+    display:grid;
+    grid-row: 1/2;
+}
+nav ul span{
+    width: 130px;
+    height: 15px;
+}
+
+div.piva img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 38px;
+}
+hr{
+    border: 0;
+    width: 230px;
+    background-color: red;
+    height: 1px;
+    margin: auto;
+  }
+
+p.tovar {
+    padding-top: 72px;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 46px;
+}
+ 
+section.pivko img{
+    width: 200px;
+    height: 600px;
+    
+}
+section.pivko div.pivo4ka div{
+    width: 200px;
+}
+  
+section.pivko div.pivo4ka {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 14em;
+    justify-items: center;
+    text-align: center;
+}
+section.pivko div.pivo4ka span{
+    font-size: 32px;
+    font-weight: 500;
+}
+section.pivko div.pivo4ka h4{
+    font-size: 22px;
+    color: gray;
+}
+section.pivko div.pivo4ka h5{
+    font-size: 30px;
+    background-color: yellow;
+    text-align: center;
+}
+section.pivko div.pivo4ka span{
+    text-align: center;
+}
+section.pivko div.pivo4ka svg{
+    width: 175px;
+}
+
+footer{
+margin-top: 100px;
+position: absolute;
+width: 1290px;
+height: 237px;
+left: 18px;
+background: #D6D6D6;
+}
+
+
+footer span{
+
+position: absolute;
+width: 408px;
+height: 155px;
+left: 10px;
+top: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 39px;
+
+color: #000000;
+}
+footer span p a{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+ footer div.pivoo{
+box-sizing: border-box;
+
+position: absolute;
+width: 75px;
+height: 70px;
+left: 470px;
+top: 39px;
+
+border: 1px solid #FFE500;
+}
+
+
+ footer div.pivoo p{
+position: absolute;
+width: 73px;
+height: 70px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFE500;
+}
+
+
+footer div.house{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 75px;
+height: 70px;
+left: 545px;
+top: 39px;
+
+background: #FFE500;
+border: 1px solid #FFE500;
+}
+
+ footer div.house p{
+
+position: absolute;
+width: 75px;
+height: 33px;
+left: 0px;
+top: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+
+
+footer span.o4ko{
+
+position: absolute;
+width: 377px;
+height: 87px;
+left: 470px;
+top: 119px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+footer div.pivooo span {
+
+position: absolute;
+width: 414px;
+height: 58px;
+left: 820px;
+top: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+footer div.o4ko2{
+position: absolute;
+width: 92px;
+height: 64px;
+left: 960px;
+top: 119px;
+
+background: url(image.png);
+}
+
+footer div.o4ko1{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 98px;
+height: 63px;
+left: 850px;
+top: 119px;
+
+background: url(image.png);
+
+}
+
+.burger{
+    width: 36px;
+    justify-self: end;
+    cursor: pointer;
+    display: block;
+ }
+ 
+ .burger svg{
+    color: var(--color-accent);
+ }
+
+.modalMenu{
+    background-color: #272727e8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    display: none;
+ }
+ .modalMenu.active{
+    display: block;
+ }
+ 
+ .modalMenu header{
+    display: grid;
+    grid-template-columns: 36px;
+    grid-template-rows: 36px;
+    background-color: #616161;
+    justify-content: end;
+ }
+ 
+ .modalMenu header svg{
+    cursor: pointer;
+    color: var(--color-accent);
+ }
+ 
+ .modalMenu nav ul{
+    display: grid;
+    row-gap: 20px;
+    justify-items: center;
+ }
+ 
+ .modalMenu nav ul li a{
+    color: var(--color-white);
+    font-size: 200%;
+    transition: all 0.7s;
+    display: block;
+ }
+ 
+ .modalMenu nav ul li a:hover{
+    color: var(--color-accent);
+    transform: scale(1.2);
+ }
+
+@media screen and (max-width: 390px) {
+    header div.piva img{
+        width: 700px;
+    }
+    hr {
+        margin-left: 195px;
+    }
+    header p.tovar{
+        padding-left: 180px;
+    }
+    section.pivko div.pivo4ka{
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 180px;
+    }
+    .modalMenu nav ul {
+        grid-template-columns: 1fr;
+        
+        background-color: black;
+        row-gap: 20px;
+    }
+    .modalMenu nav ul li {
+        margin: 0;
+    }
+    .modalMenu nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+}
